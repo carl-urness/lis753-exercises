@@ -2,11 +2,9 @@ body {
   background-color: #A2B7CD;
   font-family: arial, sans-serif;
   color: #414146;
-
 }
 
 /* The colors above in the body are chosen for contrast.  Background is a pastel teal color, distinct from the text and white background in the wrapper below.*/
-/* */
 
 .wrapper {
   background: #ffffff;
@@ -20,6 +18,7 @@ h1 {
   margin-bottom: .5em;
 }
 
+/*I wanted the two unordered lists to be distictly separate, utilizing the concept of proximity.  It also helps with showing the relationship with information below the header.*/
 h2 {
   margin-top: 2em;
   margin-bottom: .25em;
