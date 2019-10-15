@@ -4,10 +4,8 @@ body {
   color: #414146;
 }
 
-/* The colors above in the body are chosen for contrast.  Background is a pastel teal color, distinct from the text and white background in the wrapper below.*/
-
 .wrapper {
-  background: #ffffff;
+  background-color: #ffffff;
   width: 92%;
   max-width: 800px;
   margin: 0 auto;
@@ -16,9 +14,9 @@ body {
 
 h1 {
   margin-bottom: .5em;
+  text-align: center;
 }
 
-/*I wanted the two unordered lists to be distictly separate, utilizing the concept of proximity.  It also helps with showing the relationship with information below the header.*/
 h2 {
   margin-top: 2em;
   margin-bottom: .25em;
@@ -34,14 +32,10 @@ blockquote {
   margin-left: 0;
 }
 
-/*Centering the image, similar to yours looks right to the eye.  */
-
 .image {
   text-align: center;
   margin: 1.5em 0;
 }
-
-/*After playing around with the image captions.  I found the proper proximately is zero. For some reason even .01 was a large distance between the photo and text.*/
 
 .caption {
   font-style: italic;
@@ -59,4 +53,17 @@ a {
 img {
   max-width: 100%;
   height: auto;
+}
+
+header {
+  background-image: url(../images/houndstooth-pattern.png);
+  border-top: 2px solid #393D3F;
+  border-bottom: 2px solid #393D3F;
+}
+
+footer {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-top: 2px solid;
 }
