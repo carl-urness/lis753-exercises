@@ -61,6 +61,17 @@ header {
   border-bottom: 2px solid #393D3F;
 }
 
+#sub-section{
+  background-color: gray;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 400px) {
+  blockquote {
+    background-color: #C1D5DD;
+  }
+}
+
 footer {
   text-align: center;
   padding-top: 30px;
