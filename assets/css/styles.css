@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #A2B7CD;
   font-family: arial, sans-serif;
@@ -6,8 +10,8 @@ body {
 
 .wrapper {
   background-color: #ffffff;
-  width: 92%;
-  max-width: 800px;
+  width: 99%;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 12px 20px;
 }
@@ -18,11 +22,11 @@ h1 {
 }
 
 h2 {
-  margin-top: 2em;
+  margin-top: .5em;
   margin-bottom: .25em;
 }
 h1, h2 {
-  color: #4392F1;
+  color: #A50000;
 }
 
 blockquote {
@@ -62,14 +66,7 @@ header {
 }
 
 #sub-section{
-  background-color: gray;
-  color: #ffffff;
-}
-
-@media only screen and (max-width: 400px) {
-  blockquote {
-    background-color: #C1D5DD;
-  }
+  color: #A50000;
 }
 
 footer {
@@ -77,4 +74,23 @@ footer {
   padding-top: 30px;
   padding-bottom: 30px;
   border-top: 2px solid;
+}
+
+@media all and (min-width: 900px) {
+  article, aside {
+    float: left;
+  }
+
+  article {
+  width: 60%;
+  padding-right: 40px;
+  }
+
+  aside {
+  width: 40%:
+  }
+
+  aside h2:first-child {
+    margin-top: 14px;
+  }
 }
