@@ -21,6 +21,10 @@ h1 {
   text-align: center;
 }
 
+h1#page-title {
+  margin: 0;
+}
+
 h2 {
   margin-top: .5em;
   margin-bottom: .25em;
@@ -65,15 +69,22 @@ header {
   border-bottom: 2px solid #393D3F;
 }
 
+header.wrapper {
+  padding: 22px 20px;
+}
+
 #sub-section{
   color: #A50000;
 }
 
-footer {
+footer.wrapper {
   text-align: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 22px 20px;
   border-top: 2px solid;
+}
+
+aside h2 {
+  font-size: 1.5rem;
 }
 
 @media all and (min-width: 900px) {
@@ -84,10 +95,11 @@ footer {
   article {
   width: 60%;
   padding-right: 40px;
+  padding-top: 16px;
   }
 
   aside {
-  width: 40%:
+  width: 40%;
   }
 
   aside h2:first-child {
